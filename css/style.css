@@ -1,0 +1,89 @@
+
+
+html, body {
+  align-items: center;
+  background: #E0E6ED;
+  display: flex;
+  font-family: 'Roboto Condensed', sans-serif;
+  height: 100%;
+  justify-content: center;
+  margin: 0;
+}
+
+.done {color:green !important}
+
+
+input[type="text"]:disabled {
+    background: #E0E6ED;
+    text-decoration:line-through;
+}
+
+#list-container{width: 400px}
+
+main > h1 {
+  color: #3454ad;
+  font: 50px 'Roboto Condensed';
+  margin: 0 0 12px;
+}
+
+main, #add {
+  text-align: center;
+}
+
+.input-container {
+  position: relative;
+  margin-top: 8px;
+}
+
+input {
+  width: 100%;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 12px;
+  display: inline;
+}
+
+input:focus {
+  outline: none;
+}
+
+.remove {
+  position: absolute;
+  right: -22px;
+  top: 0;
+  line-height: 35px !important;
+}
+
+.checkit{
+  position: absolute;
+  right: -47px;
+  top: 0;
+  line-height: 35px !important;
+}
+
+#add {
+  display: block;
+  margin-top: 10px;
+  color: #f7f4f4;
+  cursor: pointer;
+  background-color: #3955b0;
+  width: 24px;
+  padding: 3%;
+  border-radius: 23px;
+}
+
+.adding{text-align: -webkit-center;}
+
+ .remove, .checkit {
+  color: #C0C8D2;
+  cursor: pointer;
+}
+
+#add:hover, .remove:hover{
+  color: #E85D75;
+}
+
+.checkit:hover {
+  color:green;
+}
